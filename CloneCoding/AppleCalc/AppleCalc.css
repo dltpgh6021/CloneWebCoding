@@ -3,7 +3,6 @@ body {
 	margin: 0 auto;
 	width: 393px;
 	height: 852px;
-	border: white solid;
 }
 
 #container {
@@ -11,7 +10,7 @@ body {
 	grid-template-columns: repeat(4, 92px);
 	grid-template-rows: repeat(5, 92px);
 	grid-gap: 5px;
-	margin: 5px;
+	margin: 15px auto;
 }
 
 .menu, .num, .calc {
@@ -22,17 +21,20 @@ body {
 }
 
 div [class="screen"] {
+	display: inline-grid;
 	grid-column: 1/5;
 	grid-row: 1/4;
 	color: white;
 	text-align: right;
-	vertical-align: bottom;
+	padding: 170px 23px;
 	font-size: 90px;
 }
 
 .zero {
 	border-radius: 25%/50%;
 	grid-column: 1/3;
+	text-align: left;
+	padding-left: 35px;
 }
 
 .menu {
