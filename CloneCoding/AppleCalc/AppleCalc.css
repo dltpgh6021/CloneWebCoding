@@ -20,7 +20,7 @@ body {
 	padding: 15px 0px;
 }
 
-div [class="screen"] {
+#screen {
 	display: inline-grid;
 	grid-column: 1/5;
 	grid-row: 1/4;
